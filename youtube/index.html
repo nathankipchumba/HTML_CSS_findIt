@@ -4,304 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <meta http-equiv="30" /> -->
-    <title>Youtube clone</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>FindIt - HTML/CSS formats</title>
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="header">
-      <div class="left-sect">
+    <div class="main-header">
+      <div class="logo-div">
         <img
-          src="../headerImgs/hamburger-menu.svg"
-          alt=""
-          class="hamburger-menu"
+          src="../Blue and Orange Circle Icon Business Logo (2)-Photoroom.png"
+          alt="logo"
+          class="logo"
         />
-        <img src="../headerImgs/youtube-logo.svg" alt="" class="youtube-logo" />
       </div>
-      <div class="mid-sect">
-        <input class="search" type="text" placeholder="Search" />
-        <button class="search-btn">
-          <img src="../headerImgs/search.svg" alt="" class="search-icon" />
-          <div class="search-tooltip">Search</div>
-        </button>
-        <button class="voice-btn">
-          <img
-            src="../headerImgs/voice-search-icon.svg"
-            alt=""
-            class="voice-icon"
-          />
-        </button>
-      </div>
-      <div class="right-sect">
-        <img src="../headerImgs/upload.svg" alt="" class="upload" />
-        <img src="../headerImgs/youtube-apps.svg" alt="" class="apps" />
-        <div class="notf-div">
-          <img
-            src="../headerImgs/notifications.svg"
-            alt=""
-            class="notifications"
-          />
-          <p class="notf-count">3</p>
+      <div class="main-tabs">
+        <div class="head-tab home">
+          <a href="">About</a>
         </div>
-        <img src="../headerImgs/my-channel.jpeg" alt="" class="channelImg" />
+        <div class="head-tab find"><a href="">Find</a></div>
+        <div class="head-tab report"><a href="">Report</a></div>
+        <div class="head-tab help"><a href="">Quick-Help</a></div>
+      </div>
+      <div class="user-tabs">
+        <button class="auth-btn login">Login</button>
+        <button class="auth-btn signup">
+          <a href="./signup.html">Sign Up</a>
+        </button>
       </div>
     </div>
-    <div class="sidebar">
-      <div class="sidebar-link">
-        <img src="../sidebarImgs/home.svg" alt="" class="home-icon" />
-        <p class="label">Home</p>
-      </div>
-      <div class="sidebar-link">
-        <img src="../sidebarImgs/explore.svg" alt="" class="explore-icon" />
-        <p class="label">Explore</p>
-      </div>
-      <div class="sidebar-link">
-        <img
-          src="../sidebarImgs/subscriptions.svg"
-          alt=""
-          class="subscr-icon"
-        />
-        <p class="label">Subscriptions</p>
-      </div>
-      <div class="sidebar-link">
-        <img src="../sidebarImgs/originals.svg" alt="" class="originals-icon" />
-        <p class="label">Originals</p>
-      </div>
-      <div class="sidebar-link">
-        <img src="../sidebarImgs/youtube-music.svg" alt="" class="music-icon" />
-        <p class="label">Youtube Music</p>
-      </div>
-      <div class="sidebar-link">
-        <img src="../sidebarImgs/library.svg" alt="" class="library-icon" />
-        <p class="label">Library</p>
-      </div>
-    </div>
-    <div class="vid-section">
-      <div class="vid-prev">
-        <div class="thumbnail">
-          <img class="img-prev" src="./imgs/thumbnail-1.webp" alt="" />
-          <p class="time">3:40:34</p>
-        </div>
-        <div class="vid-info">
-          <div class="channel-pic">
-            <img src="./channelpics/channel-1.jpeg" alt="" />
-          </div>
-          <div class="info">
-            <p class="title">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-            <p class="user">Lorem, ipsum.</p>
-            <p class="stats">6.4M views &#183; 4 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="vid-prev">
-        <div class="thumbnail">
-          <img class="img-prev" src="./imgs/thumbnail-2.webp" alt="" />
-          <p class="time">3:40:34</p>
-        </div>
-        <div class="vid-info">
-          <div class="channel-pic">
-            <img src="./channelpics/channel-2.jpeg" alt="" />
-          </div>
-          <div class="info">
-            <p class="title">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-            <p class="user">Lorem, ipsum.</p>
-            <p class="stats">6.4M views &#183; 4 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="vid-prev">
-        <div class="thumbnail">
-          <img class="img-prev" src="./imgs/thumbnail-3.webp" alt="" />
-          <p class="time">3:40:34</p>
-        </div>
-        <div class="vid-info">
-          <div class="channel-pic">
-            <img src="./channelpics/channel-3.jpeg" alt="" />
-          </div>
-          <div class="info">
-            <p class="title">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-            <p class="user">Lorem, ipsum.</p>
-            <p class="stats">6.4M views &#183; 4 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="vid-prev">
-        <div class="thumbnail">
-          <img class="img-prev" src="./imgs/thumbnail-4.webp" alt="" />
-          <p class="time">3:40:34</p>
-        </div>
-        <div class="vid-info">
-          <div class="channel-pic">
-            <img src="./channelpics/channel-4.jpeg" alt="" />
-          </div>
-          <div class="info">
-            <p class="title">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-            <p class="user">Lorem, ipsum.</p>
-            <p class="stats">6.4M views &#183; 4 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="vid-prev">
-        <div class="thumbnail">
-          <img class="img-prev" src="./imgs/thumbnail-5.webp" alt="" />
-          <p class="time">3:40:34</p>
-        </div>
-        <div class="vid-info">
-          <div class="channel-pic">
-            <img src="./channelpics/channel-5.jpeg" alt="" />
-          </div>
-          <div class="info">
-            <p class="title">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-            <p class="user">Lorem, ipsum.</p>
-            <p class="stats">6.4M views &#183; 4 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="vid-prev">
-        <div class="thumbnail">
-          <img class="img-prev" src="./imgs/thumbnail-6.webp" alt="" />
-          <p class="time">3:40:34</p>
-        </div>
-        <div class="vid-info">
-          <div class="channel-pic">
-            <img src="./channelpics/channel-6.jpeg" alt="" />
-          </div>
-          <div class="info">
-            <p class="title">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-            <p class="user">Lorem, ipsum.</p>
-            <p class="stats">6.4M views &#183; 4 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="vid-prev">
-        <div class="thumbnail">
-          <img class="img-prev" src="./imgs/thumbnail-7.webp" alt="" />
-          <p class="time">3:40:34</p>
-        </div>
-        <div class="vid-info">
-          <div class="channel-pic">
-            <img src="./channelpics/channel-7.jpeg" alt="" />
-          </div>
-          <div class="info">
-            <p class="title">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-            <p class="user">Lorem, ipsum.</p>
-            <p class="stats">6.4M views &#183; 4 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="vid-prev">
-        <div class="thumbnail">
-          <img class="img-prev" src="./imgs/thumbnail-8.webp" alt="" />
-          <p class="time">3:40:34</p>
-        </div>
-        <div class="vid-info">
-          <div class="channel-pic">
-            <img src="./channelpics/channel-8.jpeg" alt="" />
-          </div>
-          <div class="info">
-            <p class="title">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-            <p class="user">Lorem, ipsum.</p>
-            <p class="stats">6.4M views &#183; 4 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="vid-prev">
-        <div class="thumbnail">
-          <img class="img-prev" src="./imgs/thumbnail-9.webp" alt="" />
-          <p class="time">3:40:34</p>
-        </div>
-        <div class="vid-info">
-          <div class="channel-pic">
-            <img src="./channelpics/channel-9.jpeg" alt="" />
-          </div>
-          <div class="info">
-            <p class="title">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-            <p class="user">Lorem, ipsum.</p>
-            <p class="stats">6.4M views &#183; 4 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="vid-prev">
-        <div class="thumbnail">
-          <img class="img-prev" src="./imgs/thumbnail-10.webp" alt="" />
-          <p class="time">3:40:34</p>
-        </div>
-        <div class="vid-info">
-          <div class="channel-pic">
-            <img src="./channelpics/channel-10.jpeg" alt="" />
-          </div>
-          <div class="info">
-            <p class="title">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-            <p class="user">Lorem, ipsum.</p>
-            <p class="stats">6.4M views &#183; 4 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="vid-prev">
-        <div class="thumbnail">
-          <img class="img-prev" src="./imgs/thumbnail-11.webp" alt="" />
-          <p class="time">3:40:34</p>
-        </div>
-        <div class="vid-info">
-          <div class="channel-pic">
-            <img src="./channelpics/channel-11.jpeg" alt="" />
-          </div>
-          <div class="info">
-            <p class="title">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-            <p class="user">Lorem, ipsum.</p>
-            <p class="stats">6.4M views &#183; 4 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="vid-prev">
-        <div class="thumbnail">
-          <img class="img-prev" src="./imgs/thumbnail-12.webp" alt="" />
-          <p class="time">3:40:34</p>
-        </div>
-        <div class="vid-info">
-          <div class="channel-pic">
-            <img src="./channelpics/channel-12.jpeg" alt="" />
-          </div>
-          <div class="info">
-            <p class="title">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </p>
-            <p class="user">Lorem, ipsum.</p>
-            <p class="stats">6.4M views &#183; 4 years ago</p>
-          </div>
-        </div>
+    <div class="main-sect">
+      <h2 class="main-sect-header">
+        This site helps in locating and reporting displaced/lost items.
+      </h2>
+      <div class="div1">
+        <p>
+          To locate or report your item, you must first create a
+          <a style="text-decoration: none" href="">findit</a> account. Locating
+          an item involves entering key details of the item in order match with
+          any item that might have been reported somewhere.
+        </p>
+        <p>
+          To report a displaced item, key descriptions are noted for easy
+          tracking.
+        </p>
       </div>
     </div>
   </body>

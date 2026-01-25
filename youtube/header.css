@@ -1,0 +1,50 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.main-header {
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  transition: box-shadow 0.2s;
+}
+.logo-div {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+.logo-div .logo {
+  overflow: hidden;
+  height: 100px;
+  background: transparent;
+}
+.main-tabs {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  column-gap: 40px;
+}
+.user-tabs {
+  width: 200px;
+  display: flex;
+  margin-left: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+.head-tab a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #270569;
+}
+.auth-btn {
+  padding: 5px 12px;
+  color: rgb(137, 102, 219);
+  font-size: 17px;
+  border: 2px #270569 solid;
+  border-radius: 5px;
+}
+
+.main-header:hover {
+  /* border-bottom: 1px rgb(214, 212, 212) solid; */
+  box-shadow: 10px 10px 20px rgb(187, 186, 186);
+}
