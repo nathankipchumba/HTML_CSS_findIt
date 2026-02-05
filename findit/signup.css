@@ -1,12 +1,16 @@
 body {
   background-color: rgb(241, 250, 247);
 }
+a {
+  text-decoration: none;
+}
 .sect {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: end;
-  margin-top: 100px;
+  margin-top: 130px;
+  margin-bottom: 50px;
 }
 .signup-page {
   /* width: 600px; */
@@ -23,12 +27,16 @@ body {
   color: rgb(77, 14, 136);
 }
 .signup-page div {
-  display: flex;
-  justify-content: left;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: start;
+  align-items: start; */
 }
 .signup-page input::placeholder {
-  font-size: 15px;
+  font-size: 14px;
+}
+.signup-page input {
+  width: 200px;
+  margin-left: 15px;
 }
 .signup-btn {
   background-color: rgb(164, 207, 164);
@@ -36,4 +44,24 @@ body {
   font-size: 17px;
   border-radius: 5px;
   border: none;
+  color: rgb(173, 38, 173);
+}
+.underline {
+  background-color: black;
+  height: 1px;
+  width: 300px;
+}
+.sign-up-btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.google-img {
+  width: 25px;
+  height: 25px;
+  /* background: transparent; */
+}
+.sign-up-btn2 p {
+  margin-left: 5px;
+  font-size: 16px;
 }
