@@ -2,10 +2,16 @@
   font-family: "Roboto", sans-serif;
 }
 .main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
   display: flex;
   flex-direction: row;
   height: 120px;
   transition: box-shadow 0.2s;
+  background-color: rgb(241, 250, 247);
 }
 .logo-div {
   width: 200px;

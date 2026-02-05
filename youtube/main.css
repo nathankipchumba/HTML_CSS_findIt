@@ -7,6 +7,7 @@ a {
 body {
   background-color: rgb(241, 250, 247);
   margin-bottom: 0;
+  margin-top: 120px;
 }
 .main-sect {
   /* height: 1000px; */
@@ -33,4 +34,48 @@ body {
 .div1 p {
   font-size: 18px;
   line-height: 30px;
+}
+.div2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  margin: 60px 100px 40px 100px;
+}
+.div2 .package {
+  /* height: 200px; */
+  /* background-image: linear-gradient(to right, #502977, #945acb, #159591); */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.package1 {
+  background-image: linear-gradient(to right, #502977, #945acb, #159591);
+}
+.package2 {
+  background-image: linear-gradient(to right, #159591, #945acb, #502977);
+}
+.package h4 {
+  text-align: center;
+  color: rgb(121, 230, 193);
+}
+.underline {
+  height: 1px;
+  width: 200px;
+  background-color: rgb(241, 250, 247);
+}
+.package div {
+  margin-left: 10px;
+  color: white;
+}
+.package .link {
+  color: greenyellow;
+}
+.package button {
+  width: 50px;
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 4px;
 }
